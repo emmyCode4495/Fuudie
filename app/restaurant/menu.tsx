@@ -543,10 +543,7 @@ export default function MenuScreen() {
           <TouchableOpacity
             style={styles.cartBtn}
             activeOpacity={0.88}
-            onPress={() => router.push({
-              pathname: '/restaurant/checkout',
-              params: { restaurantId, restaurantName },
-            })}
+        
           >
             <CartIcon />
             <Text style={styles.cartBtnText}>Checkout</Text>
